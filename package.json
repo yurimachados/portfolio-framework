@@ -1,0 +1,15 @@
+{
+  "description": "portfolio framework for devs and designers",
+  "author": "Yuri Machado Silveira",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
