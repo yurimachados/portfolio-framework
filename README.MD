@@ -52,4 +52,13 @@ This command will run Gulp's default task, which will transpile Sass to CSS, con
 
 If you'd like to contribute to this project, feel free to submit a pull request.
 
+<hr>
+<br>
+
+## License
+<br>
+
+This project is licensed under the terms of the MIT license.
+
+
 <br>
