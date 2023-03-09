@@ -1,9 +1,60 @@
-* {
-    border: 1px dashed rgb(219, 21, 160);
+@mixin titulo($cor){
+    font-size: 80px;
+    line-height: 97px;
+    color: $cor;
 }
 
-.container {
-    h1 {
-        color: rgb(126, 42, 42);
+
+* {
+    // border: 1px dashed rgb(219, 21, 160);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background: #141620;
+}
+
+nav{
+    padding: 1.5rem;
+    color: white;
+    background: #141620;
+    .nav-link{
+        color: white;
+        &:hover{
+            background: #C0F64D;
+        }
     }
+    .navbar-text{
+        color: #C0F64D;
+    }
+}
+
+.destack{
+padding: 3rem;
+    h1{
+        @include titulo(white);
+    }
+    p{
+        color: #7E7E7E;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.services{
+    padding: 5rem 0;
+    h1{
+        @include titulo(#141620);
+    }
+    h2{
+        color: #141620;
+    }
+    p{
+        color: #141620;
+    }
+    hr{
+        color: #141620;
+    }
+
 }

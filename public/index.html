@@ -13,9 +13,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand col-4" href="#">Navbar w/ text</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container menu">
+                <a class="navbar-brand col-4" href="#"><img src="./assets/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Meus serviços</a>
@@ -41,13 +41,13 @@
                 </div>
             </div>
         </nav>
-        <div class="container destaque">
-            <div class="row">
+        <div class="container destack">
+            <div class="row align-items-center">
                 <div class="col-6">
-                    <h1>Olá ✌️, me <br> chamo Sara.</h1>
+                    <h1>Olá ✌️, me<br> chamo Sara</h1>
                     <p>Sou desenvolvedora front-end com foco no usuário,
                         com experiência na criação de projetos web. </p>
-                    <button type="button" class="btn btn-primary">Solicitar orçamento</button>
+                    <button type="button" class="btn btn-verde py-2 px-4">Solicitar orçamento</button>
                 </div>
                 <div class="col-6">
                     <img class='' src="./assets/img-destaque.png" alt="Imagem de destaque">
@@ -56,11 +56,11 @@
         </div>
     </header>
 
-    <div class="section">
-        <div class="container services">
+    <div class="section services bg-verde">
+        <div class="container">
             <div class="row gap-5">
                 <div class="col">
-                    <h1>Meus serviços</h1>
+                    <h1>Meus<br> serviços</h1>
                     <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na criação
                         de projetos web. </p>
                 </div>
@@ -74,6 +74,7 @@
                             <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
                                 criação de projetos web. </p>
                         </div>
+                        <hr>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-2">
@@ -84,6 +85,7 @@
                             <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
                                 criação de projetos web. </p>
                         </div>
+                        <hr>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-2">
@@ -145,7 +147,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <h2>Meus projetos</h2>
-                    <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na criação de projetos web. </p>
+                    <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na criação
+                        de projetos web. </p>
                 </div>
                 <div class="col-lg-3">
                     <img src="/public/assets/xtreme.png" alt="Xtreme agencia">
@@ -154,17 +157,42 @@
                 </div>
                 <div class="col-lg-3">
                     <img src="/public/assets/blog-news.png" alt="Blog news">
-                    <h3>Xtreme Agência</h3>
-                    <p>Front-end</p>
+                    <h3>Xequemate Comunicação</h3>
+                    <p>Ui designer</p>
                 </div>
                 <div class="col-lg-3">
                     <img src="/public/assets/nasa-news.png" alt="Nasa News">
-                    <h3>Xtreme Agência</h3>
-                    <p>Front-end</p>
+                    <h3>Nasa blog</h3>
+                    <p>UX Designer</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <sectio>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Fale <br>comigo!</h1>
+                    <p>Solicite um orçamento através das
+                        minhas redes ou e-mail. </p>
+                </div>
+                <div class="col">
+                    <span>e-mail</span>
+                    <h3>oi@sara.dev</h3>
+                    <hr>
+                    <span>minhas redes</span>
+                    <h3>Facebook / Instagram / Twitter</h3>
+                </div>
+            </div>
+        </div>
+    </sectio>
+
+    <footer>
+        <div class="container text-center">            
+                <p>créditos aqui</p>
+        </div>
+    </footer>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
