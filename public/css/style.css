@@ -11815,6 +11815,9 @@ nav .navbar-text {
   color: #7E7E7E;
   padding-bottom: 1.5rem;
 }
+.destack button {
+  border-radius: 1px;
+}
 
 .services {
   padding: 5rem 0;
@@ -11832,4 +11835,47 @@ nav .navbar-text {
 }
 .services hr {
   color: #141620;
+}
+
+.skills {
+  padding: 5rem 0;
+}
+.skills h1, .skills .h1 {
+  font-size: 80px;
+  line-height: 97px;
+  color: white;
+}
+
+.projects {
+  padding: 5rem 0;
+  color: #141620;
+}
+.projects h2, .projects .h2 {
+  font-size: 80px;
+  line-height: 97px;
+  color: #141620;
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 2rem;
+}
+.projects h3, .projects .h3 {
+  padding: 0.5rem 0;
+}
+
+.contact {
+  padding: 5rem 0;
+}
+.contact h1, .contact .h1 {
+  font-size: 80px;
+  line-height: 97px;
+  color: white;
+}
+.contact span {
+  color: #7E7E7E;
+}
+.contact h3, .contact .h3 {
+  color: #7E7E7E;
+}
+.contact p {
+  color: #7E7E7E;
 }

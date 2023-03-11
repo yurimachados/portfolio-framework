@@ -2,6 +2,7 @@
 @import './node_modules/bootstrap/scss/_functions';
 @import './node_modules/bootstrap/scss/_variables';
 
+
 // cria as cores personalizadas
 $custom-theme-colors: (
     "verde": #c0f64d,
@@ -11,6 +12,11 @@ $custom-theme-colors: (
 //adiciona aos arquivos do Bootstrap
 $theme-colors: map-merge($custom-theme-colors, $theme_colors);
 
-
 @import './node_modules/bootstrap/scss/bootstrap';
-@import 'custom'
+@import 'custom';
+@import 'destack';
+@import 'services';
+@import 'skills';
+@import 'projects';
+@import 'contact';
+

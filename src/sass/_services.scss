@@ -1,0 +1,15 @@
+.services{
+    padding: 5rem 0;
+    h1{
+        @include titulo(#141620);
+    }
+    h2{
+        color: #141620;
+    }
+    p{
+        color: #141620;
+    }
+    hr{
+        color: #141620;
+    }
+}

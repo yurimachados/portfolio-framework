@@ -1,0 +1,15 @@
+.contact{
+    padding: 5rem 0;
+    h1{
+        @include titulo(white);
+    }
+    span{
+        color: #7E7E7E;
+    }
+    h3{
+        color: #7E7E7E;
+    }
+    p{
+        color: #7E7E7E;
+    }
+}

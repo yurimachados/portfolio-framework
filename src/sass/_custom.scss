@@ -29,32 +29,5 @@ nav{
     .navbar-text{
         color: #C0F64D;
     }
-}
-
-.destack{
-padding: 3rem;
-    h1{
-        @include titulo(white);
-    }
-    p{
-        color: #7E7E7E;
-        padding-bottom: 1.5rem;
-    }
-}
-
-.services{
-    padding: 5rem 0;
-    h1{
-        @include titulo(#141620);
-    }
-    h2{
-        color: #141620;
-    }
-    p{
-        color: #141620;
-    }
-    hr{
-        color: #141620;
-    }
-
+    
 }

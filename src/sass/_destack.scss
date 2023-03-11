@@ -1,0 +1,13 @@
+.destack{
+    padding: 3rem;
+        h1{
+            @include titulo(white);
+        }
+        p{
+            color: #7E7E7E;
+            padding-bottom: 1.5rem;
+        }
+        button{
+            border-radius: 1px;
+        }
+    }
