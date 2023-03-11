@@ -11803,6 +11803,13 @@ nav .navbar-text {
   color: #C0F64D;
 }
 
+footer {
+  color: #7E7E7E;
+}
+footer a {
+  color: #C0F64D;
+}
+
 .destack {
   padding: 3rem;
 }
