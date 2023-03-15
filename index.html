@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./public/css/style.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Portifólio X</title>
 </head>
@@ -45,36 +46,38 @@
         </nav>
         <div id="destack" class="container destack">
             <div class="row align-items-center">
-                <div class="col-6">
+                <div data-aos="fade-right" data-aos-duration="2000" class="col-6">
                     <h1>Olá ✌️, me<br> chamo Sara</h1>
                     <p>Sou desenvolvedora front-end com foco no usuário,
                         com experiência na criação de projetos web. </p>
                     <button type="button" class="btn btn-verde py-2 px-4">Solicitar orçamento</button>
                 </div>
-                <div class="col-6">
+                <div data-aos="fade-left" data-aos-duration="2000" class="col-6">
                     <img class='' src="./public/assets/img-destaque.png" alt="Imagem de destaque">
                 </div>
             </div>
         </div>
     </header>
-    
+
     <section>
         <div id='services' class="services bg-verde">
             <div class="container">
                 <div class="row gap-5">
-                    <div class="col">
+                    <div data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="2000" class="col">
                         <h1>Meus<br> serviços</h1>
-                        <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na criação
+                        <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
+                            criação
                             de projetos web. </p>
                     </div>
-                    <div class="col">
+                    <div data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="2000" class="col">
                         <div class="row align-items-center">
                             <div class="col-2">
                                 <img src="./public/assets/icon_uidesigner.png" alt="ui designer">
                             </div>
                             <div class="col">
                                 <h2>UI Designer</h2>
-                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
+                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência
+                                    na
                                     criação de projetos web. </p>
                             </div>
                             <hr>
@@ -85,7 +88,8 @@
                             </div>
                             <div class="col">
                                 <h2>UX Designer</h2>
-                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
+                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência
+                                    na
                                     criação de projetos web. </p>
                             </div>
                             <hr>
@@ -96,7 +100,8 @@
                             </div>
                             <div class="col">
                                 <h2>UI Designer</h2>
-                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
+                                <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência
+                                    na
                                     criação de projetos web. </p>
                             </div>
                         </div>
@@ -109,10 +114,10 @@
     <section>
         <div class="container skills">
             <div class="row align-items-center">
-                <div class="col">
+                <div data-aos="fade-up-right" data-aos-duration="2000" class="col">
                     <h1>Skills & Experiencias</h1>
                 </div>
-                <div class="col">
+                <div data-aos="fade-up-left" data-aos-duration="2000" class="col">
                     <h2 class="pb-3">Experiências</h2>
                     <div class="row">
                         <div class="col-2">
@@ -152,22 +157,23 @@
         <div id="projects" class="projects bg-verde">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div data-aos="fade-left" data-aos-delay="150" data-aos-duration="2000" class="col-lg-3">
                         <h2>Meus projetos</h2>
-                        <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na criação
+                        <p>Sou desenvolvedora front-end com foco no usuário, com mais de 10 anos de experiência na
+                            criação
                             de projetos web. </p>
                     </div>
-                    <div class="col-lg-3">
+                    <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="2000" class="col-lg-3">
                         <img src="./public/assets/xtreme.png" alt="Xtreme agencia">
                         <h3>Xtreme Agência</h3>
                         <p>Front-end</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="2000" class="col-lg-3">
                         <img src="./public/assets/blog-news.png" alt="Blog news">
                         <h3>Blog news</h3>
                         <p>Ui designer</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div data-aos="fade-left" data-aos-delay="700" data-aos-duration="2000" class="col-lg-3">
                         <img src="./public/assets/nasa-news.png" alt="Nasa News">
                         <h3>Nasa news</h3>
                         <p>UX Designer</p>
@@ -178,32 +184,42 @@
     </section>
 
     <section>
-        <div id='contact' class="container contact">
-            <div class="row">
-                <div class="col">
-                    <h1>Fale <br>comigo!</h1>
-                    <p>Solicite um orçamento através das
-                        minhas redes ou e-mail.</p>
-                </div>
-                <div class="col">
-                    <span>e-mail</span>
-                    <h3>oi@sara.dev</h3>
-                    <hr>
-                    <span>minhas redes</span>
-                    <h3>Facebook / Instagram / Twitter</h3>
+        <div class="contact">
+            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000" id='contact' class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Fale <br>comigo!</h1>
+                        <p>Solicite um orçamento através das
+                            minhas redes ou e-mail.</p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="2000" class="col">
+                        <span>e-mail</span>
+                        <h3>oi@sara.dev</h3>
+                        <hr>
+                        <span>minhas redes</span>
+                        <h3>Facebook / Instagram / Twitter</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <hr>
+
 
     <footer>
-        <div class="container text-center">            
-                <p>Copyright © 2023 - Developed by <a href="https://www.linkedin.com/in/yuri-machado-silveira-16a5aa186/https://www.linkedin.com/in/yuri-machado-silveira-16a5aa186/">Yuri Machado</a></p>
+        <hr>
+        <div class="container text-center">
+            <p>Copyright © 2023 - Developed by <a
+                    href="https://www.linkedin.com/in/yuri-machado-silveira-16a5aa186/https://www.linkedin.com/in/yuri-machado-silveira-16a5aa186/">Yuri
+                    Machado</a></p>
         </div>
     </footer>
 
     <!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

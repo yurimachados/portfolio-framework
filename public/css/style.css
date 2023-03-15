@@ -11791,7 +11791,7 @@ body {
 nav {
   padding: 1.5rem;
   color: white;
-  background: #141620;
+  background: #22283B;
 }
 nav .nav-link {
   color: white;
@@ -11804,10 +11804,15 @@ nav .navbar-text {
 }
 
 footer {
+  background-color: #22283B;
   color: #7E7E7E;
 }
 footer a {
   color: #C0F64D;
+}
+footer p {
+  margin-bottom: 0;
+  padding: 1rem;
 }
 
 .destack {
